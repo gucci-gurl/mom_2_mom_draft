@@ -21,11 +21,43 @@ body {
 
 
 .people img{
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
 }
 
 #pound-image{
     height: 250px;
     width: 250px;
+}
+
+
+.signup-section{
+    min-height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D8AAA6;
+
+}
+
+ #signup-form{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.mission-statement{
+min-height: 10vh;
+padding: 40px;
+text-align: center;
+
+
+}
+.mission-statement p{
+ margin: auto;   
+text-align: center;
+font-size: 24px;
+
 }
